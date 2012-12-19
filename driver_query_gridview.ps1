@@ -1,0 +1,1 @@
+﻿Driverquery.exe /v /FO CSV | ConvertFrom-Csv | Select-Object 'Display Name', 'Start Mode', 'Paged Pool(bytes)', Path | Out-GridView
